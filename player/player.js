@@ -7,7 +7,7 @@ import artplayerPluginHlsControl from 'https://unpkg.com/artplayer-plugin-hls-co
 function initializeArtPlayer(m3u8Url) {
     const art = new Artplayer({
         container: '#video', // The container element for the player
-        url: m3u8Url, // The .m3u8 URL to play
+        url: https://internal-video.adultempire.com/hls/1/2744621/2688/2809/blacked-raw-v21-61XGWI5/index-f3-v1-a1.m3u8?st=fvVMhejSsokWY1lp7sjr-Q&e=1738386861, // The .m3u8 URL to play
         setting: true,
         plugins: [
             artplayerPluginHlsControl({
