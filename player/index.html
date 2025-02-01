@@ -1,28 +1,26 @@
-<html><head>
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <script src="mousetrap.min.js" charset="utf-8"></script>
-  <style>
-    body{
-      background-color:black;
-    }
-    #video{
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      margin: auto;
-      max-height: 100%;
-      max-width: 100%;
-    }
-  </style>
-<title>M3U8 Player running...</title></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3U8 Player with ArtPlayer</title>
+    <script src="https://unpkg.com/artplayer/dist/artplayer.js"></script>
+    <script src="https://unpkg.com/hls.js/dist/hls.min.js"></script>
+    <script src="https://unpkg.com/artplayer-plugin-hls-control"></script>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        #video {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
 <body>
-  <video id="video" style="width: 100%; height: 100%;" controls=""></video>
-  <script src="player.js"></script>
+    <div id="video"></div>
+    <script src="player.js"></script>
 </body>
 </html>
